@@ -1,0 +1,60 @@
+## Cancer Data
+* Both incidence and mortality rates are per 100,000 persons, and are age-adjusted according to the [2000 US Standard Population](https://seer.cancer.gov/stdpopulations/stdpop.19ages.html)
+  + Age Adjusted: counts are weighted by age, according to the prevalence proportion of that age group in the 2000 U.S. standard population (19 age groups – Census P25–1130). More detail below.
+  + the only rates that are not age-adjusted, are the 5-year age-specific rates
+    + i.e. the 5-year mortality rate of 65-69 year-olds
+* Population counts for denominators are based on Census populations as modified by the NCI.
+  +  The [1969-2017 US Population Data File](https://seer.cancer.gov/popdata/) is used for SEER and NPCR incidence and mortality rates.
+
+### [Incidence Rates](https://statecancerprofiles.cancer.gov/help/about/incidence_rates.html)
+* Aside from bladder cancers which are always included, the incidence rates **only count cases of invasive cancers**
+  + invasive cancer: a cancer that begins spreading to nearby tissue, but not necessarily metastatic
+  + metatstatic cancer: a cancer that is not only invasive, but has also begun invading other bodily structures than its origin
+* One person may contribute more than one count to cancer incidence, if they have more than one primary cancer
+* It is unclear why (maybe suppression, or laws?), but the incidence rates data is missing information on all counties in:
+  + Kansas
+  + Minnesota
+  + Nevada
+
+### [Mortality Rates](https://statecancerprofiles.cancer.gov/help/about/death_rates.html)
+* Death data provided by the National Vital Statistics System public use data file. 
+* Death rates calculated by the National Cancer Institute using SEER*Stat.
+* The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties.
+
+### [Suppression and Confidentiality](https://statecancerprofiles.cancer.gov/suppressed.html)
+* 
+
+### Definitions
+* 5-year age-specific rate:
+  + the incidence or mortality rate in a specific age group, where the width of the age group is 5 years
+    + e.g. the mortality rate for 5-9 year olds in 2017
+    + these are the only rates that are not age-adjusted
+* [Age-Adjusted Rate](https://seer.cancer.gov/csr/1975_2017/results_figure/sect_01_intro2_25pgs.pdf):
+  + An age-adjusted incidence or mortality rate is a weighted average of the
+age-specific incidence or mortality rates, where the weights are the counts of persons in the
+corresponding age groups of a standard population. The potential confounding effect of age is
+reduced when comparing age-adjusted rates based on the same standard population. For this
+report, the 2000 US standard population (or, where appropriate, the world standard million
+population) is used in computing age-adjusted rates, unless otherwise noted.
+  + Age-adjustment minimizes the effect of a difference in age distributions
+when comparing rates.
+* Annual Percent Change (APC)
+* Average Annual Percent Change (AAPC)
+* Estimated Annual Percent Change (EAPC)
+* National Cancer Institute (NCI)
+  + Surveillance, Epidemiology, and End Results (SEER) Program
+    + responsible for data collection?
+* National Program of Cancer Registries Cancer Surveillance System (NCPR-CSS)
+* Centers for Disease Control and Prevention (CDC)
+    
+## Sources
+The source of the data comes from the US site [State Cancer Profiles](https://statecancerprofiles.cancer.gov/). More information about the data can be found [here](https://statecancerprofiles.cancer.gov/help/about/).
+
+### [Sources of the Incidence Rates](https://statecancerprofiles.cancer.gov/help/about/incidence_rates.html)
+
+* provided by the
+  + [National Program of Cancer Registries](https://www.cdc.gov/cancer/npcr/) Cancer Surveillance System (NPCR-CSS), 
+  + Centers for Disease Control and Prevention (CDC)
+  + and by the National Cancer Institute's [Surveillance, Epidemiology, and End Results (SEER) Program](https://seer.cancer.gov/).
+* Population counts for denominators are based on Census populations as modified by NCI.
+* Rates are calculated using [SEER*Stat](https://seer.cancer.gov/seerstat/).
